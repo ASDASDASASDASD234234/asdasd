@@ -1,0 +1,1 @@
+for D,c in pairs(getgc(true))do if type(c)=="table"and rawget(c,"BaseRecoil")then c.BaseRecoil=0.01;c.FireSpeed=100;c.ProjectileAccuracy=100;c.ProjectilePenetration=100;for aE,ao in pairs(c)do end end end
